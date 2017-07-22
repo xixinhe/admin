@@ -1,0 +1,10 @@
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <div class="container">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li *ngFor = "let item of items" class="nav-item active">
+        <a class="nav-link" href="{{item.url}}">{{item.title}}</a>
+      </li>
+    </ul>
+    <a href="#" class="btn btn-outline-info">Logout</a>
+  </div>
+</nav>
